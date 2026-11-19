@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Link from 'next/link'
 function Nav() {
   return (
-    <div className='w-full flex gap-5 align-left'>
+    <div className='w-full flex gap-5 items-start'>
       <div>
         logo
       </div>
